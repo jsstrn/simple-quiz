@@ -1,0 +1,7 @@
+.leaderboard-enter {
+  background-color: salmon;
+  transition: 0.5s;
+}
+.leaderboard-enter-active {
+  background-color: red;
+}
