@@ -1,0 +1,35 @@
+{
+  "name": "simple-quiz",
+  "version": "1.0.0",
+  "description": "[![Stories in Ready](https://badge.waffle.io/jsstrn/simple-quiz.png?label=ready&title=Ready)](https://waffle.io/jsstrn/simple-quiz) # simple-quiz A simple quiz app",
+  "main": "index.js",
+  "scripts": {
+    "start": "http-server",
+    "watch": "watchify -t [ babelify ] assets/js/index.js -o assets/js/bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsstrn/simple-quiz.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jsstrn/simple-quiz/issues"
+  },
+  "homepage": "https://github.com/jsstrn/simple-quiz#readme",
+  "dependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.3.0",
+    "firebase": "^3.0.2",
+    "react": "^15.1.0",
+    "react-addons-css-transition-group": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "watchify": "^3.7.0"
+  }
+}
